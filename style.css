@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    background-color: #141413;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.topo{
+    padding: 10px 50px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.logo{
+    display: flex;
+    gap: 5px;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #E2AD00;
+    font-size: 35px;
+}
+
+img{
+    width: 40px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+button{
+    padding: 6px;
+    border: none;
+    border-radius: 10px;
+    width: 60px;
+    height: 30px;
+    background-color: rgb(247, 87, 29);
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+button:hover{
+    background-color: rgb(188, 59, 13);
+    transform: scale(1.2);
+}
+
+h2{
+    color: white;
+    font-family: monospace;
+    color: #fdcb27;
+    font-size: 25px;
+} 
+
+.card{
+    padding: 10px;
+    border-color: wheat;
+    width: 100px;
+}
